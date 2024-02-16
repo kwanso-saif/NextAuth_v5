@@ -19,9 +19,15 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "auth" :["./auth.ts"]
+      "auth": ["./auth.ts"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/clientPage/About.js"
+  ],
   "exclude": ["node_modules"]
 }
